@@ -82,7 +82,7 @@ Rules:
 Return ONLY the itinerary text, no intro or outro."""
 
     message = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-5",
         max_tokens=2000,
         messages=[{"role": "user", "content": prompt}]
     )
